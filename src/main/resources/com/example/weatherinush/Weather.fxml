@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weatherinush.Weather">
+    <children>
+
+        <TextField fx:id="DayField" layoutX="21.0" layoutY="93.0" promptText="Day" />
+        <Button fx:id="SaveButton" layoutX="242.0" layoutY="321.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Save" />
+      <TextField fx:id="FieldTemperature" layoutX="21.0" layoutY="136.0" promptText="Temperature" />
+      <TextField fx:id="FieldFelt" layoutX="21.0" layoutY="175.0" promptText="Felt" />
+      <TextField fx:id="FieldPricipitation" layoutX="21.0" layoutY="217.0" promptText="Precipitation" />
+      <AnchorPane layoutY="-1.0" prefHeight="79.0" prefWidth="600.0" style="-fx-background-color: #000080;">
+         <children>
+              <Label layoutX="24.0" layoutY="20.0" prefHeight="39.0" prefWidth="149.0" text="Weather " textFill="WHITE">
+                  <font>
+                      <Font name="Arial Black" size="26.0" />
+                  </font>
+              </Label>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
